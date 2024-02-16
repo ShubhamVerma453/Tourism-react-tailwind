@@ -1,0 +1,11 @@
+.first {
+    background-image: url('../src/assets/tajMahal1.jpg');
+    font-family: "Playfair Display", serif;
+}
+
+.navbar {
+    /* background: rgba(225, 225, 225, .1); */
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    border-bottom: rgba(225, 225, 225, .2);
+}
