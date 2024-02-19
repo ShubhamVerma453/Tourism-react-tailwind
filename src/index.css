@@ -16,3 +16,11 @@ body {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
 }
+
+.scale-transi{
+    transition: all;
+    transition-duration: 200ms;
+}
+.scale-transi:hover{
+    transform: scale(1.05);
+}

@@ -1,6 +1,5 @@
 .first {
-    background-image: url('../src/assets/tajMahal1.jpg');
-    font-family: "Playfair Display", serif;
+    background-image: url('./assets/tajMahal.jpg');
 }
 
 .navbar {
