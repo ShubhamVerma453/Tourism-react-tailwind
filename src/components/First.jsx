@@ -1,9 +1,10 @@
 import Navbar from "./Navbar";
+import {tajMahal} from '../assets/images.json'
 
 export default function First() {
     return (
         <>
-            <div className="first w-screen h-screen bg-cover bg-center">
+            <div className="first h-screen bg-cover bg-center" style={{backgroundImage:`url(${tajMahal})`}}>
                 <Navbar />
                 <div className="text-white px-11 h-[86vh] md:w-3/5 flex items-center bg-gradient-to-r from-gray-950">
                     <div>

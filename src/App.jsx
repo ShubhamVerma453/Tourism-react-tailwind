@@ -1,12 +1,13 @@
 import './App.css'
 import First from './components/First'
-import Navbar from './components/Navbar'
+import Populars from './components/Populars'
+import {tajMahal} from './assets/images.json'
 
 function App() {
-
   return (
     <>
     <First />
+    <Populars />
     </>
   )
 }
